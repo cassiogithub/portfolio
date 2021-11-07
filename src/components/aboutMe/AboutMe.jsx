@@ -1,11 +1,19 @@
 const AboutMe = () => {
-    return(
-        <>
-        <section>
-            Sobre mim
-        </section>
-        </>
-    )
-}
+  return (
+    <>
+      <section>
+        <div className="flex justify-around mt-11">
+          <div>
+            <div>
+                <img src="../../images/favicon.png" alt="" />
+            </div>
 
-export default AboutMe
+          </div>
+          <div>imagem</div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default AboutMe;
