@@ -1,7 +1,16 @@
+import { useEffect } from 'react'
 import Head from 'next/head'
 import AboutMe from '../components/aboutMe/AboutMe'
 import Header from '../components/Header/Header'
+import MyProjects from '../components/myProjects/MyProjects'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 export default function Home() {
+  useEffect(() => {
+    AOS.init()
+    
+  }, [])
   return (
     <div>
       <Head>
@@ -11,5 +20,6 @@ export default function Home() {
       </Head>
       <Header />
       <AboutMe />
+      <MyProjects />
     </div>
 )}
