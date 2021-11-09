@@ -14,7 +14,7 @@ const AboutMe = () => {
                 <h1 className="text-4xl self-start mb-2 ml-2 font-mono">
                   Me conheça.
                 </h1>
-                <p className="text-gray-900 text-lg text-justify m-2 md:text-lg xs:text-sm xs:mt-2">
+                <p className="text-gray-900 text-justify m-2 md:text-lg xs:text-sm xs:mt-2">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Consequuntur perspiciatis qui itaque eaque eligendi a quo id
                   nam, eveniet numquam quaerat officia architecto quis possimus
