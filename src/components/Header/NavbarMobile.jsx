@@ -6,7 +6,7 @@ const NavbarMobile = (props) => {
   const [barOpen, setBarOpen] = useState(false);
   return (
     <div
-      className="lg:hidden cursor-pointer"
+      className="sm:hidden md:hidden lg:hidden cursor-pointer"
       onClick={(e) => {
         setBarOpen(!barOpen)
        return props.isOpen( barOpen)
