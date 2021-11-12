@@ -9,6 +9,7 @@ const Header = (props) => {
   function isBarOpen(isOpen) {
     setOpen(!isOpen);
   }
+  
   return (
     <>
       <header>
@@ -19,7 +20,7 @@ const Header = (props) => {
               <Navbar hidden="xs:hidden" />
               <NavbarMobile isOpen={isBarOpen} />
             </div>
-            <div className="flex justify-around">{open ? <Navbar /> : '' }</div>
+            <div className="flex justify-around sm:hidden">{open ? <Navbar /> : '' }</div>
           </div>
         </div>
       </header>
