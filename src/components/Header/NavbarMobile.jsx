@@ -6,13 +6,13 @@ const NavbarMobile = (props) => {
   const [barOpen, setBarOpen] = useState(false);
   return (
     <div
-      className="lg:hidden"
+      className="lg:hidden cursor-pointer"
       onClick={(e) => {
         setBarOpen(!barOpen)
        return props.isOpen( barOpen)
       }}
     >
-      {barOpen ? <AiOutlineClose size={40} /> : <GoThreeBars size={40} />}
+      {barOpen ? <AiOutlineClose size={35} /> : <GoThreeBars size={35} />}
     </div>
   );
 };

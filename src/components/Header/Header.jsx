@@ -14,7 +14,7 @@ const Header = (props) => {
       <header>
         <div className="flex justify-around items-center border-b border-gray-800 border-opacity-5 mt-5">
           <div className="flex flex-col w-full">
-            <div className="flex  justify-around ">
+            <div className="flex  justify-around mb-2 ">
               <Logo />
               <Navbar hidden="xs:hidden" />
               <NavbarMobile isOpen={isBarOpen} />
