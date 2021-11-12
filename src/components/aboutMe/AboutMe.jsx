@@ -37,7 +37,7 @@ const AboutMe = () => {
           <div className="sm:flex" data-aos="fade-left">
           <img
                 src="/images/myAvatar.svg"
-                className="w-full xl:max-w-md lg:max-w-sm md:w-96 sm:w-64 sm:rounded-full sm:border-2 md:border-0 md:rounded xs:w-52 xs:rounded-full"
+                className="w-full xl:max-w-sm lg:max-w-sm md:w-96 sm:w-64 sm:rounded-full sm:border-2 md:border-0 md:rounded xs:w-52 xs:rounded-full"
                 alt="Eu"
               />
           </div>
