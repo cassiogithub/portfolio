@@ -1,11 +1,10 @@
-import AOS from "aos";
 import "aos/dist/aos.css";
 const TheProject = (props) => {
   return (
     <>
       <article>
         <div
-          className="flex flex-col justify-center items-center max-w-xl p-4"
+          className="flex flex-col justify-center items-center max-w-lg p-4"
           data-aos="zoom-out-down"
           data-aos-duration="500"
         >

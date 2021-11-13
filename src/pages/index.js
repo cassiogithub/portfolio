@@ -5,6 +5,7 @@ import Header from '../components/Header/Header'
 import MyProjects from '../components/myProjects/MyProjects'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Skills from '../components/skills/Skills'
 
 export default function Home() {
   useEffect(() => {
@@ -21,5 +22,6 @@ export default function Home() {
       <Header />
       <AboutMe />
       <MyProjects />
+      <Skills />
     </div>
 )}
