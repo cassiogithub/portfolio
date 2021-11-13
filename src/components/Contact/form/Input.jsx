@@ -3,8 +3,8 @@ const Input = (props) => {
     <>
     <div className="flex flex-col items-start mx-3">
       <label
-        class="block text-gray-700 text-sm font-bold mb-2"
-        for={props.holder}
+        className="block text-gray-700 text-sm font-bold mb-2"
+        htmlFor={props.holder}
       >
         {props.holder}
       </label>

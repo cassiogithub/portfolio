@@ -1,8 +1,9 @@
+import Link from 'next/Link';
 const Logo = () => {
   return (
     <>
-      <a href="/">
-        <div id="logo" className="flex flex-col">
+      <Link href="/" passHref>
+        <div id="logo" className="flex flex-col select-none cursor-pointer">
           <span className="font-semibold text-xl tracking-tight text-gray-600">
             Cássio Rodrigues
           </span>
@@ -10,7 +11,7 @@ const Logo = () => {
             Desenvolvedor Front-end
           </span>
         </div>
-      </a>
+      </Link>
     </>
   );
 };
