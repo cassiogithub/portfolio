@@ -11,7 +11,7 @@ const Stack = (props) => {
           <h2 className="text-xl p-1 font-semibold font-mono sr-only">
             {props.title}
           </h2>
-          <img src={props.url} alt="HTML CSS JS" className="w-60" />
+          <img src={props.url} alt={props.title} className="w-60" />
         </div>
         <div className="">
           <div className="flex flex-col md:max-w-sm">

@@ -1,14 +1,12 @@
 import { useEffect } from 'react'
 import Head from 'next/head'
-import AboutMe from '../components/aboutMe/AboutMe'
-import Header from '../components/Header/Header'
-import MyProjects from '../components/myProjects/MyProjects'
+import Header from '../../components/Header/Header'
+import ContactMe from '../../components/Contact/Contact'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import Skills from '../components/skills/Skills'
-import Footer from '../components/Footer/Footer'
+import Footer from '../../components/Footer/Footer'
 
-export default function Home() {
+export default function Contact() {
   useEffect(() => {
     AOS.init()
   }, [])
@@ -21,9 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
-      <AboutMe />
-      <MyProjects />
-      <Skills />
+      <ContactMe />
       <Footer />
     </div>
 )}

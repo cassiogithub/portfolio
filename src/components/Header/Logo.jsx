@@ -1,7 +1,7 @@
 const Logo = () => {
   return (
     <>
-      <a href="#">
+      <a href="/">
         <div id="logo" className="flex flex-col">
           <span className="font-semibold text-xl tracking-tight text-gray-600">
             Cássio Rodrigues

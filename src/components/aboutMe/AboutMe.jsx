@@ -1,8 +1,8 @@
-import SocialMedia from "../shared/SocialMedias";
+import SocialGroup from "../shared/SocialMediasGroup";
 const AboutMe = () => {
   return (
     <>
-      <section>
+      <section id="AboutMe">
         <div className="flex justify-around mt-20 items-center flex-wrap-reverse">
           <div
             className="flex flex-col p-2"
@@ -22,24 +22,15 @@ const AboutMe = () => {
                 </p>
               </div>
             </div>
-
-            <div className="flex align-center justify-center mt-3">
-              <SocialMedia src="/images/fbIcon.svg" socialName="Facebook" />
-              <SocialMedia src="/images/githubIcon.svg" socialName="GitHub" />
-              <SocialMedia
-                src="/images/linkedinIcon.svg"
-                socialName="LinkedIn"
-              />
-              <SocialMedia src="/images/twitterIcon.svg" socialName="Twitter" />
-            </div>
+            <SocialGroup />
           </div>
           {/* DIREITA */}
           <div className="sm:flex" data-aos="fade-left">
-          <img
-                src="/images/myAvatar.svg"
-                className="w-full xl:max-w-sm lg:max-w-sm md:w-96 sm:w-64 sm:rounded-full sm:border-2 md:border-0 md:rounded xs:w-52 xs:rounded-full"
-                alt="Eu"
-              />
+            <img
+              src="/images/myAvatar.svg"
+              className="w-full xl:max-w-sm lg:max-w-sm md:w-96 sm:w-64 sm:rounded-full sm:border-2 md:border-0 md:rounded xs:w-52 xs:rounded-full"
+              alt="Cássio Rodrigues"
+            />
           </div>
         </div>
       </section>
