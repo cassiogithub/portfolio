@@ -1,8 +1,7 @@
-import Link from 'next/Link';
 const Logo = () => {
   return (
     <>
-      <Link href="/#" passHref>
+      <a href="https://cassiorodrigues.vercel.app/">
         <div id="logo" className="flex flex-col select-none cursor-pointer">
           <span className="font-semibold text-xl tracking-tight text-gray-600">
             Cássio Rodrigues
@@ -11,7 +10,7 @@ const Logo = () => {
             Desenvolvedor Front-end
           </span>
         </div>
-      </Link>
+      </a >
     </>
   );
 };
