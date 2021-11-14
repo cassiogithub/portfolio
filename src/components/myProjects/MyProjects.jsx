@@ -17,7 +17,7 @@ const MyProjects = () => {
             <TheProject
               description="Rocket.Q é um projeto <NLW Together /> da Rocketseat, obtive um grande ganho de experiência e de noção prática com 
               aplicações front-end e uma noção de NodeJS adiquirindo conhecimento básico em interação back-end com front-end.
-              Nesta aplicação foi usando HTML, CSS, JS e como frameworks EJS e NodeJS."
+              Nesta aplicação foi usado HTML, CSS, JS e como frameworks EJS e NodeJS."
               srcImg="/images/rocketqLogo.svg"
               link='https://github.com/cassiogithub/nlw-together'
             />
