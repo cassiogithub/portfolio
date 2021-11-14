@@ -15,10 +15,12 @@ const AboutMe = () => {
                   Me conheça.
                 </h1>
                 <p className="text-gray-900 text-justify m-2 md:text-lg xs:text-sm xs:mt-2">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Consequuntur perspiciatis qui itaque eaque eligendi a quo id
-                  nam, eveniet numquam quaerat officia architecto quis possimus
-                  expedita est quod incidunt maxime.
+                  Sou Cássio, tenho 25 anos, estou fazendo um curso técnico
+                  em informática, comecei a estudar programação  em novembro de
+                  2020, sempre usei a plataforma Udemy para estudos, hoje estou
+                  buscando com este portfólio me apresentar e dar entrada na
+                  área de programação, mesmo como estagiário , espero que tenham
+                  uma boa experiência com esta aplicação!  
                 </p>
               </div>
             </div>
