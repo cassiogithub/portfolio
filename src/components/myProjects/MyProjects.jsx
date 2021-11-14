@@ -12,7 +12,7 @@ const MyProjects = () => {
               e ter uma noção mais prática de aplicação, nesta aplicação busquei um design responsivo e minimalista,
               onde tive a minha primeira experiência com TailwindCSS e minha primeira aplicação usando NextJS."
               srcImg="/images/myAvatar.svg"
-              link='https://github.com/cassiogithub/portfolio'
+              link='https://github.com/cassiogithub/portfolio/'
             />
             <TheProject
               description="Rocket.Q é um projeto <NLW Together /> da Rocketseat, obtive um grande ganho de experiência e de noção prática com 
