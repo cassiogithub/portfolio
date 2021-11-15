@@ -7,7 +7,11 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Skills from '../components/skills/Skills'
 import Footer from '../components/Footer/Footer'
-
+export async function getStaticProps(context) {
+  return {
+    props: {},
+  }
+}
 export default function Home() {
   useEffect(() => {
     AOS.init()
