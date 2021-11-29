@@ -1,13 +1,12 @@
 import TheProject from "./TheProject";
-
-const MyProjects = () => {
+export default function MyProjects(props)  {
   return (
     <>
       <section id="Projects">
         <div className="flex flex-col justify-around items-center mt-2 xxl:mt-72 bg-gray-900 text-white p-4 pb-32">
           <span className="text-xl flex-nowrap">º</span>
-          <div className="flex flex-wrap w-full justify-evenly mt-20">
-            <TheProject
+          <div className="flex flex-wrap w-full justify-evenly mt-20">       
+          <TheProject
               description="Este portfólio é um dos meus projetos pessoais, tem o intuito de trazer uma boa experiência com front-end
               e ter uma noção mais prática de aplicação, nesta aplicação busquei um design responsivo e minimalista,
               onde tive a minha primeira experiência com TailwindCSS e minha primeira aplicação usando NextJS."
@@ -34,5 +33,3 @@ const MyProjects = () => {
     </>
   );
 };
-
-export default MyProjects;
