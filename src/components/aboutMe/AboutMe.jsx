@@ -5,7 +5,7 @@ const AboutMe = () => {
     let nowDate = new Date();
     let nowYear = nowDate.getFullYear();
     let birthParts = birth.split("/");
-    let dayBrith = birthParts[0];
+    let dayBirth = birthParts[0];
     let monthBirth = birthParts[1];
     let yearBirth = birthParts[2];
     let age = nowYear - yearBirth;
@@ -14,7 +14,7 @@ const AboutMe = () => {
       age--;
     } else {
       if (monthNow == monthBirth) {
-        if (new Date().getDate() < dayBrith) {
+        if (new Date().getDate() < dayBirth) {
           age--;
         }
       }
