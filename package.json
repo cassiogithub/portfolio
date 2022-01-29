@@ -3,10 +3,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-<<<<<<< HEAD
-    "build": "next build",
-=======
->>>>>>> manutencao
     "start": "next start",
     "lint": "next lint",
     "build": "next build",
